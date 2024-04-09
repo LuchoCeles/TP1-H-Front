@@ -1,0 +1,20 @@
+#slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+}
+
+img {
+    width: 100%; /* Establece el ancho al 100% del contenedor */
+    height: 300px; /* Establece una altura fija de 300px */
+    object-fit: contain; /* Hace que la imagen mantenga su relación de aspecto mientras llena el contenedor */
+    display: block; /* Asegura que las imágenes se muestren como bloques */
+    margin: 0 auto; /* Centra horizontalmente las imágenes */
+}
+
+p {
+    text-align: center;
+}
