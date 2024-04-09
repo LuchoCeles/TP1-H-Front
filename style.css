@@ -18,3 +18,28 @@ img {
 p {
     text-align: center;
 }
+.color{
+    background-color: rgb(233, 243, 186);
+    padding: 20px;
+    border-radius: 45px;
+}
+.barrabuscadora{
+    display: flex;
+    align-items:end;
+}
+.barrabuscadora input[type="text"]{
+    padding : 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.barrabuscadora boton {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#titulo{
+    font-family: cursive;
+}
