@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded",function(){
             }
         });
     }
-     function nextSlide(){
+    function nextSlide(){
         currentSlide = (currentSlide + 1) % slides.length;
         showSlide(currentSlide);
-     }
-     setInterval(nextSlide,3000)
+    }
+    setInterval(nextSlide,3000)
 });
