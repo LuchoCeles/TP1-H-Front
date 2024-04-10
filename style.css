@@ -1,12 +1,14 @@
-.slider{
+.slide{
     position: relative;
     width: 100%;
-    max-width: 600px; /*ajusta el tamaño maximo*/
+    max-width: 800px; /*ajusta el tamaño maximo*/
     margin: 0 auto; /* centra el slider horizontal */
     overflow: hidden; /* Oculta las imagenes que se pasan del slider*/
 }
 .slider img {
-    display: none; /*Oculta todas las iamgens por defecto*/
+    display: none; /* Oculta todas las iamgens por defecto*/
     width: 100%; /*Ajusta el ancho al 100% del contenedor*/
     height: auto; /*La altura se ajusta por si sola*/
+    max-width: 100%;
+    max-height: 200px;
 }
