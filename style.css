@@ -20,9 +20,9 @@ p {
     text-align: center;
 }
 #color{
-    background-color: rgb(233, 243, 186);
+    background-color: rgba(28, 173, 230, 0.342);
     padding: 20px;
-    border-radius: 45px;
+    border-radius: 20px;
 }
 .barrabuscadora{
     display: flex;
