@@ -19,10 +19,17 @@ img {
 p {
     text-align: center;
 }
-#color{
-    background-color: rgb(233, 243, 186);
-    padding: 20px;
-    border-radius: 45px;
+#imagenFondo{
+    background-image: url('Imagenes/luis-i-bridge-8201941_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#imagenes{
+    padding: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .barrabuscadora{
     display: flex;
@@ -43,4 +50,16 @@ p {
 }
 #titulo{
     font-family: cursive;
+}
+#hnosotros{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+#secNosotros{
+    justify-content: center;
+
 }
