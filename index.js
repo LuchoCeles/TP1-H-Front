@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded",function(){
-let currentSlide =0;
+let currentSlide = 0;
 const slides = document.querySelectorAll(".slide");
 
 function showSlide(index){
@@ -15,5 +15,5 @@ function showSlide(index){
     currentSlide = (currentSlide + 1) % slides.length;
     showSlide(currentSlide);
  }
- setInterval(nextSlide,3000)
+ setInterval(nextSlide,0)
 });
