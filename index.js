@@ -15,5 +15,5 @@ function showSlide(index){
     currentSlide = (currentSlide + 1) % slides.length;
     showSlide(currentSlide);
  }
- setInterval(nextSlide,3000)
+ setInterval(nextSlide,0)
 });
